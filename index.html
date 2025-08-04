@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=0.5">
+    <meta name="description" content="新世界 - 探索无限可能的未来世界">
+    <meta name="keywords" content="新世界, 创新, 科技, 未来, GW">
+    <meta name="author" content="新世界">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="新世界 - 探索无限可能">
+    <meta property="og:description" content="新世界 - 探索无限可能的未来世界">
+    <meta property="og:type" content="website">
+    <title>新世界 - 探索无限可能</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">新世界GW</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <!-- 视频背景容器 -->
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+                <source src="Video_1753997752745_20250805_013943.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1>欢迎来到新世界</h1>
+            <div class="text-carousel" role="region" aria-label="文字轮播" tabindex="0">
+                <div class="carousel-item active" role="tabpanel" aria-roledescription="轮播项">心跳比我更先认出你</div>
+                <div class="carousel-item" role="tabpanel" aria-roledescription="轮播项">每一刻都值得铭记</div>
+                <div class="carousel-item" role="tabpanel" aria-roledescription="轮播项">新的轮播文本 1</div>
+                <div class="carousel-item" role="tabpanel" aria-roledescription="轮播项">新的轮播文本 2</div>
+                <div class="carousel-item" role="tabpanel" aria-roledescription="轮播项">新的轮播文本 3</div>
+                <div class="carousel-item" role="tabpanel" aria-roledescription="轮播项">新的轮播文本 4</div>
+                <div class="carousel-item" role="tabpanel" aria-roledescription="轮播项">新的轮播文本 5</div>
+                <!-- 可以继续添加更多轮播项 -->
+            </div>
+            <a href="#features" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>网站功能</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>功能 1</h3>
+                    <p>这里是功能 1 的描述内容。</p>
+                </div>
+                <div class="feature-item">
+                    <h3>功能 2</h3>
+                    <p>这里是功能 2 的描述内容。</p>
+                </div>
+                <div class="feature-item">
+                    <h3>功能 3</h3>
+                    <p>这里是功能 3 的描述内容。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于区域（占位） -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我们</h2>
+            <p>这里是关于我们的描述内容。您可以在此处添加公司简介、团队介绍等信息。</p>
+        </div>
+    </section>
+
+    <!-- 联系我们区域（占位） -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我们</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">留言</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">提交</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 新世界 保留所有权利</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
